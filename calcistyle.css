@@ -1,0 +1,41 @@
+.main{
+    text-align: center;
+    border: 2px solid purple;
+    width: 300px;
+    margin: 0px auto; 
+    
+}
+table{
+    width: 100%;
+}
+td{
+    width: 25%;
+}
+button{
+    width: 100%;
+    background-color: chocolate;
+    text-justify: auto;
+    color: chartreuse;
+    height: 70px;
+    font-size: 30px;
+}
+button:hover{
+    cursor: grabbing;
+    font-family: cursive;
+    font-style: italic;
+    background-color: darkcyan;
+    color: cyan;
+    border-radius: 20px 20px 20px 20px;
+   
+}
+input{
+    width: 97%;
+    height: 70px;
+    background-color: antiquewhite;
+    color: firebrick;
+    font-size: 30px;
+    border: 1px dotted red;
+}
+body{
+    padding-top: 30px;
+}

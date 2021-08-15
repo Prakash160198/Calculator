@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="calcistyle.css">
+
+    <title>Simple Calculator</title>
+</head>
+
+<body>
+   <div> <center> <h1> Calculator</h1> </center> 
+    <div class="main">
+      
+        <table bgcolor="green" : width=100px: length=2000px;>
+            <tr>
+                <input type="text" name="" id="input">
+            </tr>
+            <tr>
+                <td colspan="2"><button onclick="deleteChar()"><i class="fas fa-backspace"></i></button></td>
+                <td><button onclick="clearResult()">exit</button></td>
+                <td><button onclick="number('/')">/</button></td>
+
+            </tr>
+            <tr>
+                <td><button onclick="number('1')">1</button></td>
+                <td><button onclick="number('2')">2</button></td>
+                <td><button onclick="number('3')">3</button></td>
+                <td> <button onclick="number('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="number('4')">4</button></td>
+                <td><button onclick="number('5')">5</button></td>
+                <td><button onclick="number('6')">6</button></td>
+                <td> <button onclick="number('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="number('7')">7</button></td>
+                <td><button onclick="number('8')">8</button></td>
+                <td><button onclick="number('9')">9</button></td>
+                <td> <button onclick="number('x')">*</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="number('0')">0</button></td>
+                <td><button onclick="number('.')">.</button></td>
+                <td> <button onclick="result()">=</button></td>
+                <td><button onclick="number('%')">rem</button></td>
+            </tr>
+
+
+        </table>
+    </div> </div>
+    <script src="workingcalci.js"></script>
+
+</body>
+
+</html>
